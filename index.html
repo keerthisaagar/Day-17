@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        min-height: 100 vh;
+        display: grid;
+        place-content: center;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="countdown">10</h1>
+<script>
+const countdown = document.querySelector(".countdown");
+let num = 10;
+setTimeout(() => {
+    countdown.innerText = --num;
+    setTimeout(() => {
+        countdown.innerText = --num;
+        setTimeout(() => {
+            countdown.innerText = --num;
+            setTimeout(() => {
+                countdown.innerText = --num;
+                setTimeout(() => {
+                    countdown.innerText = --num;
+                    setTimeout(() => {
+                        countdown.innerText = --num;
+                        setTimeout(() => {
+                            countdown.innerText = --num;
+                            setTimeout(() => {
+                                countdown.innerText = --num;
+                                setTimeout(() => {
+                                    countdown.innerText = --num;
+                                    setTimeout(() => {
+                                        countdown.innerText = "Happy Independence Day";
+                                    }, 1000);
+                                }, 1000);
+                            }, 1000);
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
+    }, 1000);
+}, 1000);
+</script>
+</body>
+</html>
